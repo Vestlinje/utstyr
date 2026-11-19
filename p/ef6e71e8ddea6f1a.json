@@ -1,5 +1,22 @@
 {
- "dokument": [],
+ "dokument": [
+  {
+   "namn": "Sertifikat – kontrollnr. 542957",
+   "url": "p/d/3e28c60939d789f0.pdf"
+  },
+  {
+   "namn": "Bruksanvisning – SAR fangliner",
+   "url": "p/d/Bruksanvisning-SAR-Fangliner.pdf"
+  },
+  {
+   "namn": "Bruksanvisning – SAR Twin Clip Loop Lanyard (1)",
+   "url": "p/d/Bruksanvisning-SAR-TwinClip-Lanyard-1.pdf"
+  },
+  {
+   "namn": "Bruksanvisning – SAR Twin Clip Loop Lanyard (2)",
+   "url": "p/d/Bruksanvisning-SAR-TwinClip-Lanyard-2.pdf"
+  }
+ ],
  "internnr": "",
  "kategori": "Fallsikring",
  "kontrollar": [
