@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Vest Linje AS – Utstyrsdokumentasjon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f4;--surface:#fff;--ink:#15202b;--muted:#5b6876;--line:#d6dde4;--steel:#1d3346;--accent:#e8590c;
+--red:#c92a2a;--red-bg:#fdecec;--amber:#b35c00;--amber-bg:#fff2de;--green:#2b8a3e;--green-bg:#e6f4ea;--grey:#6b7785;--grey-bg:#eef1f4;
+--display:"Barlow Condensed","Arial Narrow",sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.45 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;letter-spacing:.01em}
+header{background:var(--steel);color:#fff}
+.hin{max-width:760px;margin:0 auto;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.hin small{display:block;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:#aebdcb}
+.hin h1{font-size:24px;line-height:1}
+main{max-width:760px;margin:0 auto;padding:18px 16px 50px;display:grid;gap:16px}
+.card{background:var(--surface);border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.06),0 4px 14px rgba(0,0,0,.06);overflow:hidden}
+.verdict{padding:22px 18px;display:flex;gap:16px;align-items:center;background:var(--bg-c);color:var(--c);border-bottom:1px solid var(--line)}
+.verdict .ic{width:52px;height:52px;border-radius:50%;background:var(--c);color:#fff;display:grid;place-items:center;flex:none;font:700 28px var(--display)}
+.verdict b{display:block;font:700 30px/1.05 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.verdict span{font-size:15px;color:var(--ink)}
+.s-ok{--c:var(--green);--bg-c:var(--green-bg)}.s-snart{--c:var(--amber);--bg-c:var(--amber-bg)}
+.s-forfalt,.s-ute{--c:var(--red);--bg-c:var(--red-bg)}.s-ukjend{--c:var(--grey);--bg-c:var(--grey-bg)}
+.body{padding:16px 18px;display:grid;gap:18px}
+.body h2{font-size:28px;line-height:1.1}
+.sub{color:var(--muted);font-size:14px;margin-top:4px}
+h3{font-size:15px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:6px}
+dl{display:grid;grid-template-columns:140px 1fr;gap:6px 12px;margin:0;font-size:15px}
+dt{color:var(--muted)}dd{margin:0;word-break:break-word}
+.mono{font-family:var(--mono);font-size:14px}
+.ctrl{border:1px solid var(--line);border-left:5px solid var(--c);border-radius:6px;padding:10px 12px}
+.ctrl+.ctrl{margin-top:8px}
+.ctrl .t{font-weight:600}
+.ctrl .m{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.docs a{display:flex;gap:10px;align-items:center;padding:10px 12px;border:1px solid var(--line);border-radius:6px;color:var(--ink);text-decoration:none;font-weight:500}
+.docs a+a{margin-top:6px}.docs a:hover{border-color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:2px 9px;border-radius:999px;font-size:12.5px;font-weight:600;background:var(--bg-c);color:var(--c);white-space:nowrap}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.foot{font-size:13px;color:var(--muted);text-align:center;line-height:1.6}
+.search{display:flex;gap:8px}
+.search input{flex:1;padding:11px 12px;border:1px solid var(--line);border-radius:6px;font:inherit}
+ul.list{list-style:none;margin:0;padding:0}
+ul.list a{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:11px 16px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
+ul.list a:hover{background:var(--grey-bg)}
+ul.list .n{font-weight:600}ul.list .k{font-size:13px;color:var(--muted)}
+.back{color:var(--muted);text-decoration:none;font-size:14px}
+.back:hover{color:var(--ink)}
+.notfound{padding:24px 18px}
+</style>
+</head>
+<body>
+<header><div class="hin">
+  <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="6" fill="#e8590c"/><path d="M17 5 L10 29 M17 5 L24 29 M12.2 21 H21.8 M13.8 15 H20.2 M8 11 H26" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>
+  <div><small>Vest Linje AS</small><h1>Utstyrsdokumentasjon</h1></div>
+</div></header>
+<main id="main"><div class="card"><div class="notfound">Lastar …</div></div></main>
+<script>
+"use strict";
+const VARSEL=30;
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pad=n=>String(n).padStart(2,"0");
+const parse=s=>{const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||"");return m?new Date(+m[1],+m[2]-1,+m[3]):null};
+const fmt=s=>{const d=parse(s);return d?pad(d.getDate())+"."+pad(d.getMonth()+1)+"."+d.getFullYear():"–"};
+const today=()=>{const d=new Date();d.setHours(0,0,0,0);return d};
+const daysTo=s=>{const d=parse(s);return d?Math.round((d-today())/864e5):null};
+function cs(k){const d=daysTo(k.neste);if(d==null)return"ukjend";if(d<0)return"forfalt";if(d<=VARSEL)return"snart";return"ok"}
+function status(it){
+  if(it.ute)return"ute";
+  const s=(it.kontrollar||[]).map(cs);
+  if(s.includes("forfalt"))return"forfalt";if(s.includes("snart"))return"snart";if(s.includes("ok"))return"ok";return"ukjend";
+}
+const LBL={ok:"Godkjent",snart:"Godkjent – kontroll snart",forfalt:"Kontroll forfalt",ute:"Ikkje i bruk",ukjend:"Ingen kontrollfrist"};
+const IC={ok:"✓",snart:"!",forfalt:"✕",ute:"✕",ukjend:"–"};
+function minNeste(it){return(it.kontrollar||[]).map(k=>k.neste).filter(Boolean).sort()[0]}
+
+function renderItem(it){
+  const s=status(it),n=minNeste(it);
+  const line=s==="ok"||s==="snart"?`Gyldig til <b>${fmt(n)}</b>`:s==="forfalt"?`Kontrollen gjekk ut ${fmt(n)}. Skal ikkje brukast før ny kontroll.`:s==="ute"?`Utstyret er teke ut av bruk.`:`Utstyret har ingen registrert kontrollfrist.`;
+  const kv=[["Type",it.kategori],["Produsent / modell",it.produsent],["Serienummer",it.serienr],["Internnr.",it.internnr],["Eigar","Vest Linje AS"]].filter(x=>x[1]);
+  document.title=it.navn+" – Vest Linje AS";
+  $main(`<div class="card">
+    <div class="verdict s-${s}"><div class="ic">${IC[s]}</div><div><b>${LBL[s]}</b><span>${line}</span></div></div>
+    <div class="body">
+      <div><h2>${esc(it.navn)}</h2><div class="sub">${esc([it.kategori,it.serienr&&"S/N "+it.serienr].filter(Boolean).join(" · "))}</div></div>
+      <div><h3>Kontroll</h3>${(it.kontrollar||[]).map(k=>{const c=cs(k);return`<div class="ctrl s-${c}"><div class="t">${esc(k.type)} <span class="pill">${c==="ok"?"OK":c==="snart"?"Snart":c==="forfalt"?"Forfalt":"–"}</span></div>
+        <div class="m">Sist utført ${fmt(k.sist)}${k.utfortAv?" av "+esc(k.utfortAv):""}${k.ref?" · "+esc(k.ref):""}<br>Neste kontroll <b>${fmt(k.neste)}</b>${k.intervall?" · intervall "+esc(k.intervall)+" mnd":""}</div></div>`}).join("")||`<div class="sub">Ingen kontrollar registrert.</div>`}</div>
+      <div><h3>Opplysningar</h3><dl>${kv.map(([a,b])=>`<dt>${a}</dt><dd${a==="Serienummer"?' class="mono"':""}>${esc(b)}</dd>`).join("")}</dl></div>
+      ${(it.dokument||[]).length?`<div class="docs"><h3>Dokumentasjon</h3>${it.dokument.map(d=>`<a href="${esc(d.url)}" target="_blank" rel="noopener"><svg width="18" height="22" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 1h12l6 6v18H2z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 1v6h6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>${esc(d.namn)}</a>`).join("")}</div>`:""}
+    </div>
+  </div>
+  <p class="foot">Status er rekna ut frå registrerte kontrolldatoar i dag, ${fmt(isoToday())}.<br>Spørsmål om utstyret: Vest Linje AS.</p>`);
+}
+function msg(title,text){document.title="Vest Linje AS – Utstyrsdokumentasjon";$main(`<div class="card"><div class="notfound"><h2>${title}</h2><p class="sub">${text}</p></div></div>`)}
+const isoToday=()=>{const d=today();return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate())};
+function $main(h){document.getElementById("main").innerHTML=h;window.scrollTo(0,0)}
+function route(){
+  const id=(location.hash||"").slice(1).toLowerCase();
+  if(!/^[0-9a-f]{16}$/.test(id)){msg("Skann QR-merket","Skann QR-merket på utstyret for å sjå kontrollstatus og dokumentasjon.");return}
+  fetch("p/"+id+".json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(renderItem)
+    .catch(()=>msg("Fann ikkje utstyret","Koden er ikkje registrert, eller utstyret er fjerna frå registeret. Kontakt Vest Linje AS."));
+}
+window.addEventListener("hashchange",route);
+route();
+</script>
+</body>
+</html>

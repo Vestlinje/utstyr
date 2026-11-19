@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-06-12",
+   "ref": "Kontrollnr. 552914",
+   "sist": "2026-06-12",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Trinsekarabin – Petzl P75 TL Rollclip Z Triact-Lock",
+ "produsent": "Petzl P75 TL Rollclip Z Triact-Lock",
+ "serienr": "26C0722744138",
+ "ute": false
+}

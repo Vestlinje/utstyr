@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-06-12",
+   "ref": "Kontrollnr. 552908",
+   "sist": "2026-06-12",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Brystsele – SAR Harrier Chest",
+ "produsent": "SAR Harrier Chest",
+ "serienr": "103649",
+ "ute": false
+}

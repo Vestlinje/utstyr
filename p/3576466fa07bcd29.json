@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-04-07",
+   "ref": "Kontrollnr. 542955",
+   "sist": "2026-04-07",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Redningsutstyr – Smartline X 25 m",
+ "produsent": "Smartline X 25 m",
+ "serienr": "25092502108021",
+ "ute": false
+}

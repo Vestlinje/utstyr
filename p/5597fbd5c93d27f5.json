@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-04-07",
+   "ref": "Kontrollnr. 542954",
+   "sist": "2026-04-07",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Tauklemme – Petzl Ascension tauklemme m/handtak",
+ "produsent": "Petzl Ascension tauklemme m/handtak",
+ "serienr": "26A0707408336",
+ "ute": false
+}

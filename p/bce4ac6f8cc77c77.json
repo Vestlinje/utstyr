@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-04-07",
+   "ref": "Kontrollnr. 543733",
+   "sist": "2026-04-07",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Støttestropp – Petzl Grillon m/presslåskarabin 2 m",
+ "produsent": "Petzl Grillon m/presslåskarabin 2 m",
+ "serienr": "26C0717731709",
+ "ute": false
+}

@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-04-07",
+   "ref": "Kontrollnr. 542952",
+   "sist": "2026-04-07",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Stolpeslynge – SAR stolpeslynge m/tri-lock presslåskarabin",
+ "produsent": "SAR stolpeslynge m/tri-lock presslåskarabin",
+ "serienr": "264461",
+ "ute": false
+}

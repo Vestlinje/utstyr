@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-06-12",
+   "ref": "Kontrollnr. 552913",
+   "sist": "2026-06-12",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Trinse – Rock Exotica Omni-Block 2.0 m/swivel",
+ "produsent": "Rock Exotica Omni-Block 2.0 m/swivel",
+ "serienr": "26027M0089",
+ "ute": false
+}

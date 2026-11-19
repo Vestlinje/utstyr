@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-04-07",
+   "ref": "Kontrollnr. 542950",
+   "sist": "2026-04-07",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Kroppssele – Petzl AVAO FAST str. 2 (C071BB02)",
+ "produsent": "Petzl AVAO FAST str. 2 (C071BB02)",
+ "serienr": "25G0662832017",
+ "ute": false
+}

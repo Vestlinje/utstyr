@@ -1,0 +1,19 @@
+{
+ "dokument": [],
+ "internnr": "",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-06-12",
+   "ref": "Kontrollnr. 552912",
+   "sist": "2026-06-12",
+   "type": "Årleg kontroll (NS-EN 365)",
+   "utfortAv": "AAK Safety"
+  }
+ ],
+ "navn": "Stolpeslynge – SAR stolpeslynge m/tri-lock, kompositt, VENSTRE",
+ "produsent": "SAR stolpeslynge m/tri-lock, kompositt, VENSTRE",
+ "serienr": "3329",
+ "ute": false
+}
