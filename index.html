@@ -90,12 +90,12 @@ function minNeste(it){return(it.kontrollar||[]).map(k=>k.neste).filter(Boolean).
 function renderItem(it){
   const s=status(it),n=minNeste(it);
   const line=s==="ok"||s==="snart"?`Gyldig til <b>${fmt(n)}</b>`:s==="forfalt"?`Kontrollen gjekk ut ${fmt(n)}. Skal ikkje brukast før ny kontroll.`:s==="ute"?`Utstyret er teke ut av bruk.`:`Utstyret har ingen registrert kontrollfrist.`;
-  const kv=[["Type",it.kategori],["Produsent / modell",it.produsent],["Serienummer",it.serienr],["Internnr.",it.internnr],["Eigar","Vest Linje AS"]].filter(x=>x[1]);
+  const kv=[["Type",it.kategori],["Produsent / modell",it.produsent],["Serienummer",it.serienr],["VL-nr.",it.internnr],["Eigar","Vest Linje AS"]].filter(x=>x[1]);
   document.title=it.navn+" – Vest Linje AS";
   $main(`<div class="card">
     <div class="verdict s-${s}"><div class="ic">${IC[s]}</div><div><b>${LBL[s]}</b><span>${line}</span></div></div>
     <div class="body">
-      <div><h2>${esc(it.navn)}</h2><div class="sub">${esc([it.kategori,it.serienr&&"S/N "+it.serienr].filter(Boolean).join(" · "))}</div></div>
+      <div><h2>${esc(it.navn)}</h2><div class="sub">${esc([it.internnr,it.kategori,it.serienr&&"S/N "+it.serienr].filter(Boolean).join(" · "))}</div></div>
       <div><h3>Kontroll</h3>${(it.kontrollar||[]).map(k=>{const c=cs(k);return`<div class="ctrl s-${c}"><div class="t">${esc(k.type)} <span class="pill">${c==="ok"?"OK":c==="snart"?"Snart":c==="forfalt"?"Forfalt":"–"}</span></div>
         <div class="m">Sist utført ${fmt(k.sist)}${k.utfortAv?" av "+esc(k.utfortAv):""}${k.ref?" · "+esc(k.ref):""}<br>Neste kontroll <b>${fmt(k.neste)}</b>${k.intervall?" · intervall "+esc(k.intervall)+" mnd":""}</div></div>`}).join("")||`<div class="sub">Ingen kontrollar registrert.</div>`}</div>
       <div><h3>Opplysningar</h3><dl>${kv.map(([a,b])=>`<dt>${a}</dt><dd${a==="Serienummer"?' class="mono"':""}>${esc(b)}</dd>`).join("")}</dl></div>
