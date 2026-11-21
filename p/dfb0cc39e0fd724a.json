@@ -1,0 +1,20 @@
+{
+ "dokument": [],
+ "internnr": "VL-30",
+ "kategori": "Vinsj / strekkutstyr",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2026-09-10",
+   "type": "Sakkyndig kontroll"
+  },
+  {
+   "intervall": 12,
+   "type": "Service"
+  }
+ ],
+ "navn": "Kombivinsj Sahlins 2103-1011 på henger",
+ "produsent": "Sahlins",
+ "serienr": "816",
+ "ute": false
+}
