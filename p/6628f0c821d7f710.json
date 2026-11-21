@@ -1,0 +1,21 @@
+{
+ "dokument": [
+  {
+   "namn": "Bruksanvisning – Ensto EgoLett stolpesko (ettersyn og kontroll)",
+   "url": "https://static.ensto.com/files/brochures/Stolpesko-Ettersyn-og-Kontroll.pdf"
+  }
+ ],
+ "internnr": "VL-34",
+ "kategori": "Fallsikring",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-05-01",
+   "type": "Årleg kontroll (NS-EN 365)"
+  }
+ ],
+ "navn": "Stolpesko EgoLett 8–12\" stillbar (4 + 3 piggar) – par 3",
+ "produsent": "Ensto – EgoLett 8–12\" (el.nr. 88 532 67)",
+ "serienr": "",
+ "ute": false
+}
