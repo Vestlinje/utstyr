@@ -1,0 +1,34 @@
+{
+ "dokument": [
+  {
+   "namn": "Brukarmanual – Maxeta isolerstenger",
+   "url": "p/d/Brukermanual-Maxeta-isolerstenger.pdf"
+  }
+ ],
+ "internnr": "VL-31",
+ "kategori": "Isolerstenger / AUS",
+ "kontrollar": [
+  {
+   "intervall": 12,
+   "neste": "2027-01-13",
+   "ref": "Kontrollrapport 6638",
+   "sist": "2026-01-13",
+   "type": "Periodisk kontroll (AUS)",
+   "utfortAv": "Axess Industries AS"
+  },
+  {
+   "intervall": 12,
+   "neste": "2026-11-21",
+   "type": "Inspeksjon og vedlikehald etter reparasjon (VL-VP-001)"
+  },
+  {
+   "intervall": 72,
+   "neste": "2031-01-13",
+   "type": "Dielektrisk vedlikehaldstest"
+  }
+ ],
+ "navn": "Betjeningsstang Maxeta P120-MSFBR-420 (420 kV)",
+ "produsent": "Maxeta AS – P120-MSFBR-420",
+ "serienr": "623027-4",
+ "ute": false
+}
