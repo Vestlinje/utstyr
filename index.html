@@ -39,6 +39,8 @@ main{max-width:760px;margin:-42px auto 0;padding:0 14px 40px;position:relative;z
 .s-ok{--c:var(--ok);--bg-c:var(--ok-bg)}.s-snart{--c:var(--amber);--bg-c:var(--amber-bg)}
 .s-forfalt,.s-ute{--c:var(--red);--bg-c:var(--red-bg)}.s-ukjend{--c:var(--grey);--bg-c:var(--grey-bg)}
 .body{padding:18px;display:grid;gap:20px}
+.pimg{background:#fff;border-bottom:1px solid rgba(0,0,0,.08);display:flex;justify-content:center;padding:14px}
+.pimg img{display:block;max-width:100%;max-height:320px;width:auto;height:auto;object-fit:contain}
 .body h2{font-size:28px;font-weight:700;line-height:1.1}
 .sub{color:var(--muted);font-size:14px;margin-top:4px}
 h3{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--vl-green);margin-bottom:8px;display:flex;align-items:center;gap:8px}
@@ -94,6 +96,7 @@ function renderItem(it){
   document.title=it.navn+" – Vest Linje AS";
   $main(`<div class="card">
     <div class="verdict s-${s}"><div class="ic">${IC[s]}</div><div><b>${LBL[s]}</b><span>${line}</span></div></div>
+    ${/^p\/i\/[0-9a-f]{16}\.(jpg|png)$/.test(it.bilete||"")?`<div class="pimg"><img src="${esc(it.bilete)}" alt="${esc(it.navn)}" loading="lazy"></div>`:""}
     <div class="body">
       <div><h2>${esc(it.navn)}</h2><div class="sub">${esc([it.internnr,it.kategori,it.serienr&&"S/N "+it.serienr].filter(Boolean).join(" · "))}</div></div>
       <div><h3>Kontroll</h3>${(it.kontrollar||[]).map(k=>{const c=cs(k);return`<div class="ctrl s-${c}"><div class="t">${esc(k.type)} <span class="pill">${c==="ok"?"OK":c==="snart"?"Snart":c==="forfalt"?"Forfalt":"–"}</span></div>

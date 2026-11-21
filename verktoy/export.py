@@ -32,6 +32,7 @@ def public(d):
             for c in d.get("kontrollar", [])
         ],
         "dokument": [x for x in d.get("offentlegeDokument", []) if x.get("url")],
+        **({"bilete": d["offentlegBilete"]} if str(d.get("offentlegBilete", "")).startswith("p/i/") else {}),
     }
 
 if __name__ == "__main__":
